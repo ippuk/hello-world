@@ -8,9 +8,6 @@ $dbname = "customercomment";
 $conn = new mysqli($servername, $username, $password, $dbname);
   if ($conn->connect_error) die($conn->connect_error);
  
- 
- 	
-	
 	$attitude = mysql_real_escape_string($conn, $_POST['attitude']);
 	$name = mysql_real_escape_string($conn, $_POST['name']);
 	$date = mysql_real_escape_string($conn, $_POST['date']);
