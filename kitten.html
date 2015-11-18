@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet"  href="lab-06.css"/>
+        <script src="lab-06.js"></script>
+        <title>Result</title>
+    </head>
+    <body>
+        <div id="header">        
+            <form action ='#' method ='post' id='loginForm' onsubmit="checkContent()">
+                <input type ='text' name='username' id ='username' class='formStuff'/>
+                <input type ='submit' class='formStuff'/>
+            </form>
+        </div>
+        <div class="left" id="smaller_block" onclick="switch_sides()"></div>
+        <img  id = "kitty_picture" onclick="changeKitten()" src="kitten.jpg" alt="meow">
+        <div class="right" id="larger_block" onclick="revert_sides()"></div>
+        <div id="footer" onclick="add_foot_info()" ></div>
+    </body>
+</html>
