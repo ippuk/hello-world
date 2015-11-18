@@ -1,7 +1,7 @@
 <?php // sqltest.php
- $servername = "localhost";
-$username = "root";
-$password = "oPwixz3XBzg5";
+ $servername = "";
+$username = "";
+$password = "";
 $dbname = "customercomment";
 
 // Create connection
